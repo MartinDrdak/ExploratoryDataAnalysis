@@ -9,9 +9,9 @@ with(Electric, plot(Datetime, Global_active_power,  type="l",  ylab="Global acti
 
 #axis.Date(1, Electric$Datetime, format = "%d.%m.%Y" )
 
-#setwd("..")
-#dev.copy(png,file="plot2.png",width=480,height=480)
-#dev.off()
+setwd("..")
+dev.copy(png,file="plot2.png",width=480,height=480)
+dev.off()
 
 
 
